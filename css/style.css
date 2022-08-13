@@ -5,8 +5,12 @@
 body {
     background-color: #76584b;
 }
+header{
+    
+}
 .navbar{
-    padding-top: 60px;
+    padding-top: 0px;
+    background-color: #76584b93;
 }
 .jumbotron{
     height: 100vh;
@@ -35,9 +39,23 @@ body {
     font-size: 24px;
     margin-bottom: 76px;
 }
+.skills{
+    background-color: #FFFAF2;
+    padding: 93px 0px;
+}
+.profile_m{
+    margin-bottom: 65px !important;
+}
+
 @media (max-width: 767.98px) {
+    
+
+    .navbar-dark .navbar-toggler {
+        color: rgb(255, 255, 255) !important;
+        border-color: rgba(255, 255, 255, 0) !important;
+    }
     .navbar{
-        padding-top: 30px;
+        padding-top: 0px;
     }
     .container-flex{
         display: flex !important;
@@ -75,7 +93,35 @@ body {
         margin-bottom: 19px;
         text-align: center;
     }
+    .skills{
+        background-color: #FFFAF2;
+        padding: 25px 0px;
+    }
+    .rating{
+        padding-left: 0px;
+    }
+    .profile_m{
+        margin-bottom: 30px !important;
+    }
+    .skill_img{
+        margin-bottom: 26px !important;
+    }
+}
+@media (max-width: 991.98px) {
+    .image_skills{
+        margin: 0px auto !important;
+    }
+    .skill_img{
+        margin-bottom: 26px !important;
+    }
+}
+.image_skills{
+    text-align: center;
 }
 .bg-show{
-    background-color: #76584b !important;
+    background-color: #76584b93 !important;
+}
+
+.rating{
+    padding-left: 50px;
 }
