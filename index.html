@@ -12,36 +12,6 @@
 </head>
 
 <body>
-    <!-- <h1>Text</h1>
-    <div class="container">
-        <h1>Text</h1>
-    </div>
-    <div class="container-fluid">
-        <h1>Text</h1>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-4 col-lg-2 col-md-6 col-sm-12 col-12 bg-primary">
-                One of three column
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, repellendus.
-            </div>
-            <div class="col-xl-4 col-lg-8 col-md-6 col-sm-6 col-6 bg-success">
-                One of three columns
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, quis.
-            </div>
-            <div class="col-xl-4 col-lg-2 col-md-12 col-sm-6 col-6 bg-danger">
-                One of three columns
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, sequi.
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="alert alert-primary" role="alert">
-            A simple primary alert—check it out!
-        </div>
-        <button type="button" class="btn btn-primary">Primary</button>
-    </div> -->
 
     <header>
         <div class="fixed-top">
@@ -70,7 +40,7 @@
             </div>
             <nav class="navbar navbar-dark ">
                 <div class="container container-flex">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    <button class="navbar-toggler position-absolute" type="button" data-toggle="collapse"
                         data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -131,18 +101,20 @@
 
         <div class="skills">
             <div class="container">
-                <div class="title_about col-12 about_p font-weight-bold">Skills</div>
+                <div class="row">
+                    <div class="title_about col-12 about_p font-weight-bold">Skills</div>
+                </div>
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-0 col-sm-0 col-0 image_skills">
                         <img style="max-width: 100%" class="skill_img" src="img/Profile Picture.jpg" alt="">
                     </div>
                     <div
                         class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 rating d-flex flex-column justify-content-between">
-                        <div class="row profile_m">
+                        <div class="row profile_m item_mb">
                             <div class="col-3 font-weight-bold">Profile</div>
                             <div class="col-9">UI / UX Engineer, Front-end Developer</div>
                         </div>
-                        <div class="row">
+                        <div class="row item_mb">
                             <div class="col-3 font-weight-bold">UX Research</div>
                             <div class="col-9">
                                 <div class="progress" style="height: 24px; background-color: #F5D6AB;">
@@ -152,11 +124,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row item_mb">
                             <div class="col-3 font-weight-bold">Tools</div>
                             <div class="col-9">Paper, Pen, Balsamiq</div>
                         </div>
-                        <div class="row">
+                        <div class="row item_mb">
                             <div class="col-3 font-weight-bold">UI Design</div>
                             <div class="col-9">
                                 <div class="progress" style="height: 24px; background-color: #F5D6AB;">
@@ -166,11 +138,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row item_mb">
                             <div class="col-3 font-weight-bold">Tools</div>
                             <div class="col-9">Adobe PS, AI, XD, Figma, InVision</div>
                         </div>
-                        <div class="row">
+                        <div class="row item_mb">
                             <div class="col-3 font-weight-bold">Front-end Dev</div>
                             <div class="col-9">
                                 <div class="progress" style="height: 24px; background-color: #F5D6AB;">
@@ -180,7 +152,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row item_mb">
                             <div class="col-3 font-weight-bold">Tools</div>
                             <div class="col-9">HTML, CSS, JS, Bootstrap, React</div>
                         </div>
@@ -188,9 +160,90 @@
                 </div>
             </div>
         </div>
+
+        <div class="portfolio bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="title_about col-12 font-weight-bold">Portfolio</div>
+                    <div class="title_about col-12 font-weight-normal fz-18">UX Research</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-0 col-sm-0 col-0 d-flex flex-column justify-content-between">
+                        <div class="pr_text">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus
+                            ultricies lectus eget urna.
+                        </div>
+                        <div class="pr_nav">
+                            <img class="p-2" src="img/ar_l.png" alt="">
+                            <img class="p-2" src="img/ar_r.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+
+                        <div class="inner_img d-flex justify-content-end">
+                            <div class="left_img">
+                                <div class="up_left_img p-2">
+                                    <img style="max-width: 100%;" src="img/img_1.jpg" alt="">
+                                </div>
+                                <div class="down_left_img p-2">
+                                    <img style="max-width: 100%;" src="img/img_2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="right_img">
+                                <div class="up_right_img p-2">
+                                    <img style="max-width: 100%;" src="img/img_3.jpg" alt="">
+                                </div>
+                                <div class="down_right_img p-2">
+                                    <img style="max-width: 100%;" src="img/img_4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="title_about col-12 font-weight-bold">
+                        Get in Touch
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="footer_column-one col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 d-flex flex-column">
+                        <a class="footer_link text-dark" href="#">Dribbble</a>
+                        <a class="footer_link text-dark" href="#">Behance</a>
+                        <a class="footer_link text-dark" href="#">CodePen</a>
+                        <a class="footer_link text-dark" href="#">GitHub</a>
+                        <a class="footer_link text-dark" href="#">Medium</a>
+                    </div>
+                    <div class="footer_column-two col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 d-flex flex-column">
+                        <a class="footer_link text-dark" href="#">LinkedIn</a>
+                        <a class="footer_link text-dark" href="#">Facebook</a>
+                        <a class="footer_link text-dark" href="#">Instagram</a>
+                        <a class="footer_link text-dark" href="#">Twitter</a>
+                    </div>
+
+
+                    <div class="footer_column-three col-xl-4 col-lg-4 col-md-4 col-sm-12 col-0 d-flex flex-column">
+                        <a class="footer_link text-dark" href="#">seyrig@mailme.com</a>
+                        <a class="footer_link text-dark" href="#">+ 55 6645 665544</a>
+                    </div>
+                    <div class="arrow_up col-12 col-sm-0 d-flex justify-content-end">
+                        <img class="arrow-up" src="img/ar_up.png" alt="">
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 

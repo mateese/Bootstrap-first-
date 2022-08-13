@@ -1,6 +1,6 @@
 ::selection{
     background-color: #fae8e0af !important; 
-    color: white !important;
+    color: black !important;
 }
 body {
     background-color: #76584b;
@@ -46,10 +46,19 @@ header{
 .profile_m{
     margin-bottom: 65px !important;
 }
-
+.portfolio{
+    padding: 93px 0px;
+}
+.fz-18{
+    font-size: 18px;
+    font-weight: 600 !important;
+    margin-bottom: 40px !important;
+}
+.footer{
+    background-color: #FFFAF2;
+    padding: 93px 0px;
+}
 @media (max-width: 767.98px) {
-    
-
     .navbar-dark .navbar-toggler {
         color: rgb(255, 255, 255) !important;
         border-color: rgba(255, 255, 255, 0) !important;
@@ -66,6 +75,7 @@ header{
     }
     .navbar-toggler{
         display: block;
+        /* position: absolute; */
     }
     .nav-none{
         display: none;
@@ -97,6 +107,9 @@ header{
         background-color: #FFFAF2;
         padding: 25px 0px;
     }
+    .item_mb{
+        margin-bottom: 15px;
+    }
     .rating{
         padding-left: 0px;
     }
@@ -106,6 +119,29 @@ header{
     .skill_img{
         margin-bottom: 26px !important;
     }
+    .pr_nav{
+        display: none;
+    }
+    .portfolio{
+        padding: 25px 0px;
+    }
+    .pr_text{
+        margin-bottom: 25px;
+    }
+    .fz-18{
+        font-size: 18px;
+        margin-bottom: 15px !important;
+    }
+    .footer{
+        padding: 25px 0px;
+    }
+    .footer_column-three{
+        margin-top: 30px;
+    }
+    .arrow-up{
+        position: absolute;
+        bottom: 30px;
+    }
 }
 @media (max-width: 991.98px) {
     .image_skills{
@@ -113,6 +149,15 @@ header{
     }
     .skill_img{
         margin-bottom: 26px !important;
+    }
+    .item_mb{
+        margin-bottom: 15px;
+    }
+    .pr_nav{
+        display: none;
+    }
+    .pr_text{
+        margin-bottom: 25px;
     }
 }
 .image_skills{
@@ -124,4 +169,10 @@ header{
 
 .rating{
     padding-left: 50px;
+}
+.progress {
+    border-radius: 0rem;
+}
+.footer_link{
+    margin-bottom: 14px;
 }
